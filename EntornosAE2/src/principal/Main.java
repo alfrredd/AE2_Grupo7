@@ -10,6 +10,14 @@ public class Main {
 		//Prueba Resta
 		
 		//Prueba Producto
+		Producto productos = new Producto();
+		System.out.println("Vamos a multiplicar dos reales, el 23.65 entre el 8.36");
+		System.out.println("El resultado es: " + productos.dosReales(23.65f, 8.36f));
+		System.out.println("Ahora multiplicaremos dos enteros: el 20 por el 9");
+		System.out.println("El resultado es: " + productos.dosEnteros(20, 9));
+		System.out.println("También hay que multiplicar tres reales: 23.21, 89.74 y 61.285");
+		System.out.println("El resultado es: " + productos.tresReales(23.21f, 89.74f, 61.285f));
+		System.out.println("Por último probaremos a hacer la potencia al cubo de 36 : " + productos.potencia(36, 3));
 		
 		//Prueba del Cociente
 		Cociente divisiones = new Cociente();
